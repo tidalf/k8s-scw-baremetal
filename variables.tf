@@ -12,22 +12,22 @@ variable "weave_passwd" {
 }
 
 variable "arch" {
-  default     = "arm"
+  default     = "x86_64"
   description = "Values: arm arm64 x86_64"
 }
 
 variable "region" {
-  default     = "par1"
+  default     = "ams1"
   description = "Values: par1 ams1"
 }
 
 variable "server_type" {
-  default     = "C1"
+  default     = "C2M"
   description = "Use C1 for arm, ARM64-2GB for arm64 and C2S for x86_64"
 }
 
 variable "server_type_node" {
-  default     = "C1"
+  default     = "C2L"
   description = "Use C1 for arm, ARM64-2GB for arm64 and C2S for x86_64"
 }
 
